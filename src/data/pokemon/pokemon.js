@@ -6,7 +6,7 @@ export default {
     "img": "http://www.serebii.net/pokemongo/pokemon/001.png",
     "type": [
       "Grass",
-      "Poison"
+      "Poison",
     ],
     "height": "0.71 m",
     "weight": "6.9 kg",

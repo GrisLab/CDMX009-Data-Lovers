@@ -1,103 +1,83 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, user scalable=no, initial-scale=1.0, maximun-scale=1.0,minimun scale=1.0"
-	/>
-	<title>Pokemon</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user scalable=no, initial-scale=1.0, maximun-scale=1.0,minimun scale=1.0" />
+    <title>Pokemon</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-	<script src="script.js">
+    <!-- <script src="script.js">
+</script> -->
+    <header>
+        <div class="element1">
+            <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Pok%C3%A9mon_GO_logo.svg/320px-Pok%C3%A9mon_GO_logo.svg.png>
+        </div>
+    </header><br>
 
-</script>
-<header>
-<div class="contenedor">
-<div class="elemento elemento1">
-<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Pok%C3%A9mon_GO_logo.svg/320px-Pok%C3%A9mon_GO_logo.svg.png>
-</header><br>
+    <div class="element2">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <input type="search" id="mysearch" name="question" class="textcamp">
+        <button id="search" class="searchbutton" onclick="myFunction()"><i class="fa fa-search"></i> &nbsp Buscar por nombre o número</button>
+        <div class="container" id="pokeSearch">
+            <p> </p>
+        </div>
+    </div>
 
-<div class="elemento elemento2">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<input type="search" id="mysearch" name="question" class="textcamp">
-<button id="search" class="searchbutton"><i class="fa fa-search"></i> &nbsp Buscar por nombre o número</button>
-</div><br>
 
-<div class="centeredPrompt__item centeredPromptLabel">Pokédex</div>
-<div class="centeredPrompt__item centeredPromptDetails"><p>Pokédex es una enciclopedia de alta tecnología que los Entrenadores Pokémon utilizan</br> para registrar las diversas especies con las que se encuentran durante su viaje como entrenadores.</br>
-Realiza tu búsqueda por nombre o número.</br>
-¡Usa la búsqueda avanzada para encontrar Pokémon por su tipo y popularidad!</br>
-Comienza tu viaje con Pokémon go!,</br> atrápalos a todos y conviértete en el mejor entrenador!</p>
-</div>
+    <br>
 
-<div class="elemento pokebola">
-<img class="pokeball" src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/110px-Pok%C3%A9_Ball_icon.svg.png></div>
+    <div class="centeredPrompt__item centeredPromptLabel">Pokédex</div>
+    <div class="centeredPrompt__item centeredPromptDetails">
+        <p>Pokédex es una enciclopedia de alta tecnología que los Entrenadores Pokémon utilizan</br> para registrar las diversas especies con las que se encuentran durante su viaje como entrenadores.</br>
+            Realiza tu búsqueda por nombre o número.</br>
+            ¡Usa la búsqueda avanzada para encontrar Pokémon por su tipo y popularidad!</br>
+            Comienza tu viaje con Pokémon go!,</br> atrápalos a todos y conviértete en el mejor entrenador!</p>
+    </div>
 
-<div class="tipo">Tipos de Pokémon</div>
+    <div class="pokeballelement">
+        <img class="pokeball" src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/110px-Pok%C3%A9_Ball_icon.svg.png>
+    </div>
 
-<div class="elemento elemento3">
-<a class="boton_personalizado" href="index1.html">Bicho</a>
-<a class="boton_personalizado" href="index1.html">Dragón</a>
-<a class="boton_personalizado" href="index1.html">Hada</a>
-</div>
-
-<div class="elemento elemento4">
-<a class="boton_personalizado" href="index1.html">Fuego</a>
-<a class="boton_personalizado" href="index1.html">Fantasma</a>
-<a class="boton_personalizado" href="index1.html">Tierra</a>
-</div>
-
-<div class="elemento elemento5">
-<a class="boton_personalizado" href="index1.html">Normal</a>
-<a class="boton_personalizado" href="index1.html">Psíquico</a>
-<a class="boton_personalizado" href="index1.html">Acero</a>
-</div>
-
-<div class="elemento elemento6">
-<a class="boton_personalizado" href="index1.html">Siniestro</a>
-<a class="boton_personalizado" href="index1.html">Eléctrico</a>
-<a class="boton_personalizado" href="index1.html">Lucha</a>
-</div>
-
-<div class="elemento elemento7">
-<a class="boton_personalizado" href="index1.html">Volador</a>
-<a class="boton_personalizado" href="index1.html">Planta</a>
-<a class="boton_personalizado" href="index1.html">Hielo</a>
-</div>
-
-<div class="elemento elemento8">
-<a class="boton_personalizado" href="index1.html">Veneno</a>
-<a class="boton_personalizado" href="index1.html">Roca</a>
-<a class="boton_personalizado" href="index1.html">Agua</a>
-</div>
-
+    <div class="pokeType">Tipos de Pokémon</div>
+    <div class="element3">
+        <a class="boton_personalizado" href="index1.html">Bicho</a>
+        <a class="boton_personalizado" href="index1.html">Dragón</a>
+        <a class="boton_personalizado" href="index1.html">Hada</a>
+    </div>
+    <div class="element4">
+        <a class="boton_personalizado" href="index1.html">Fuego</a>
+        <a class="boton_personalizado" href="index1.html">Fantasma</a>
+        <a class="boton_personalizado" href="index1.html">Tierra</a>
+    </div>
+    <div class="element5">
+        <a class="boton_personalizado" href="index1.html">Normal</a>
+        <a class="boton_personalizado" href="index1.html">Psíquico</a>
+        <a class="boton_personalizado" href="index1.html">Acero</a>
+    </div>
+    <div class="element6">
+        <a class="boton_personalizado" href="index1.html">Siniestro</a>
+        <a class="boton_personalizado" href="index1.html">Eléctrico</a>
+        <a class="boton_personalizado" href="index1.html">Lucha</a>
+    </div>
+    <div class="element7">
+        <a class="boton_personalizado" href="index1.html">Volador</a>
+        <a class="boton_personalizado" href="index1.html">Planta</a>
+        <a class="boton_personalizado" href="index1.html">Hielo</a>
+    </div>
+    <div class="element8">
+        <a class="boton_personalizado" href="index1.html">Veneno</a>
+        <a class="boton_personalizado" href="index1.html">Roca</a>
+        <a class="boton_personalizado" href="index1.html">Agua</a>
+    </div>
+    <script type="module" src="./main.js"></script>
 </body>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <title>Pokemon</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
 
-    <header class="container"> <img class="logo" src= "https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/pokemonGo2.png">
-    </header>
-    <section class="search" id "filter">
-      <textarea class="pokemonSearch">" "</textarea>
-    <button id="search"><img class="searchButton" src="https://raw.githubusercontent.com/GrisLab/CDMX009-Data-Lovers/master/imagenes/lupa.png">
-    </button>
-    <p id="searchName">Busca por nombre o número</p>
-  </section>
-    <div id="root"></div>
-    <script type="module" src="main.js"></script>
-  </body>
-=======
+<script>
+    jQuery
+</script>
 
->>>>>>> 0b0a1b9d4b3b96403c91f3adb5f737bed849a3e2
 </html>

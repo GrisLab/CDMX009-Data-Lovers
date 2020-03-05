@@ -1,13 +1,25 @@
-// import data from './data/injuries/injuries.js';
-// import data from './data/lol/lol.js';
-// import data from './data/patient/patient.js';
-// import data from './data//.js';
-// import data from './data/rickandmorty/rickandmorty.js';
-// import data from './data/steam/steam.js';
-// import data from './data/steam/worldbank.js';
+import data from './data/pokemon/pokemon.js';
 
-// esta es una función de ejemplo
+//export const pokeTag = data.results.filter((name) => name.type === "grass");
 
-export const example = () => {
-  return 'example';
-};
+
+//let pokemonTags = [];
+//for (let i = 0; i < pokemon.length; i++) {
+//pokemonTags.push(pokemon[i].name);
+//};
+
+//console.log(pokemonTags);
+
+//let pokemonForce=[];
+//for (let i=0; i< pokemon.length; i++) {
+//pokemonForce.push(pokemon[i].name);
+//};
+
+//console.log(pokemonForce);
+
+//let pokemonNum=[];
+//for (let i=0; i< pokemon.length; i++) {
+//pokemonNum.push(pokemon[i].id);
+//};
+
+//console.log(pokemonNum);

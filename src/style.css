@@ -1,180 +1,178 @@
-
-.elemento1{
-text-align: center;
-display: flex;
-justify-content:center;
-flex-direction: row;
-background-color: #CC0000;
-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Pok%C3%A9mon_GO_logo.svg/320px-Pok%C3%A9mon_GO_logo.svg.png");
-position: center;
-}
-
-.elemento2{
-text-align: center;
-justify-content:center;
-flex-direction: center;
-}
-
-.centeredPrompt__item + .centeredPrompt_item {
-    margin-top: 5px;
-  }
-
-.centeredPromptIcon {
-      font-size: 30px;
-      line-height: 0;
-      font-weight: bold;
-
-    }
-
-.centeredPromptLabel {
-      color: #000000;
-      font-size: 30px;
-      font-weight: bold;
-      text-align: center;
-    }
-.centeredPromptDetails {
-      color: #000000;
-      font-size: 16px;
-      margin-bottom: 10px;
-      text-align: center;
-    }
-
-.pokebola {
-text-align: center;
-justify-content:center;
-flex-direction: center;
-}
-
-.tipo{
-color: #000000;
-font-size: 30px;
-font-weight: 700;
-text-align: center;
-}
-
-.boton_personalizado{
-    text-decoration: none;
-    padding: auto;
-    font-size: 12px;
-    font-weight: bold;
-    font-family: Verdana,sans-serif;
-    text-align: center;
-    color: #ffffff;
-    background-color: #375DAA;
-    border: 2px solid #ffffff;
-    display: center;
-    cursor: pointer;
-    width: 200%;
-  }
-
-  .boton_personalizado:hover{
-    color: #3B4CCA;
-    background-color: #FFCC01;
-  }
-
-.elemento3{
-display:flex;
-flex-wrap:no-wrap;
-flex-direction:row;
-justify-content:space-around;
-text-align: center;
-justify-content:center;
-flex-direction: center;
-}
-
-.elemento4{
-display:flex;
-flex-wrap:no-wrap;
-flex-direction:row;
-justify-content:space-around;
-text-align: center;
-justify-content:center;
-flex-direction: center;
-}
-
-.elemento5{
-display:flex;
-flex-wrap:no-wrap;
-flex-direction:row;
-justify-content:space-around;
-text-align: center;
-justify-content:center;
-flex-direction: center;
-}
-
-.elemento6{
-display:flex;
-flex-wrap:no-wrap;
-flex-direction:row;
-justify-content:space-around;
-text-align: center;
-justify-content:center;
-flex-direction: center;
-}
-
-.elemento7{
-display:flex;
-flex-wrap:no-wrap;
-flex-direction:row;
-justify-content:space-around;
-text-align: center;
-justify-content:center;
-flex-direction: center;
-}
-
-.elemento8{
-display:flex;
-flex-wrap:no-wrap;
-flex-direction:row;
-justify-content:space-around;
-text-align: center;
-justify-content:center;
-flex-direction: center;
-}
-
-
-.container{
-display:flex;
-flex-wrap:no-wrap;
-flex-direction:row;
-justify-content:space-around;
-
-}
-
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-
-.tarjeta{
-padding: 2px 16px;
-display:flex;
-flex-wrap:wrap;
-flex-direction:display;
-justify-content:center;
-text-align: center;
-justify-content:center;
-flex-direction: center;
-text-decoration: none;
-padding: auto;
-font-size: 12px;
-font-weight: bold;
-font-family: Verdana,sans-serif;
-text-align: center;
-}
-
-.elementofuego{
-padding: 2px 16px;
-display:flex;
-flex-wrap:wrap;
-flex-direction:display;
-justify-content:center;
-text-align: center;
-justify-content:center;
-flex-direction: center;
-text-decoration: none;
-padding: auto;
-font-size: 12px;
-font-weight: bold;
-font-family: Verdana,sans-serif;
-text-align: center;
-}
+   header {
+       background-color: #FF1212;
+   }
+   
+   .element1 {
+       position: relative;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   
+   .element2 {
+       text-align: center;
+       justify-content: center;
+       flex-direction: center;
+   }
+   
+   .centeredPrompt__item+.centeredPrompt_item {
+       margin-top: 5px;
+   }
+   
+   .centeredPromptIcon {
+       font-size: 30px;
+       line-height: 0;
+       font-weight: bold;
+   }
+   
+   .centeredPromptLabel {
+       color: #000000;
+       font-size: 30px;
+       font-weight: bold;
+       text-align: center;
+   }
+   
+   .centeredPromptDetails {
+       color: #000000;
+       font-size: 16px;
+       margin-bottom: 10px;
+       text-align: center;
+   }
+   
+   .pokeball {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   
+   .pokeType {
+       color: #000000;
+       font-size: 30px;
+       font-weight: 700;
+       text-align: center;
+   }
+   
+   .boton_personalizado {
+       text-decoration: none;
+       padding: auto;
+       font-size: 12px;
+       font-weight: bold;
+       font-family: Verdana, sans-serif;
+       text-align: center;
+       color: #ffffff;
+       background-color: #375DAA;
+       border: 2px solid #ffffff;
+       display: center;
+       cursor: pointer;
+       width: 200%;
+   }
+   
+   .boton_personalizado:hover {
+       color: #3B4CCA;
+       background-color: #FFCC01;
+   }
+   
+   .element3 {
+       display: flex;
+       flex-wrap: no-wrap;
+       flex-direction: row;
+       justify-content: space-around;
+       text-align: center;
+       justify-content: center;
+       flex-direction: center;
+   }
+   
+   .element4 {
+       display: flex;
+       flex-wrap: no-wrap;
+       flex-direction: row;
+       justify-content: space-around;
+       text-align: center;
+       justify-content: center;
+       flex-direction: center;
+   }
+   
+   .element5 {
+       display: flex;
+       flex-wrap: no-wrap;
+       flex-direction: row;
+       justify-content: space-around;
+       text-align: center;
+       justify-content: center;
+       flex-direction: center;
+   }
+   
+   .element6 {
+       display: flex;
+       flex-wrap: no-wrap;
+       flex-direction: row;
+       justify-content: space-around;
+       text-align: center;
+       justify-content: center;
+       flex-direction: center;
+   }
+   
+   .element7 {
+       display: flex;
+       flex-wrap: no-wrap;
+       flex-direction: row;
+       justify-content: space-around;
+       text-align: center;
+       justify-content: center;
+       flex-direction: center;
+   }
+   
+   .element8 {
+       display: flex;
+       flex-wrap: no-wrap;
+       flex-direction: row;
+       justify-content: space-around;
+       text-align: center;
+       justify-content: center;
+       flex-direction: center;
+   }
+   
+   .container {
+       display: flex;
+       flex-wrap: no-wrap;
+       flex-direction: row;
+       justify-content: space-around;
+   }
+   
+   .card:hover {
+       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+   }
+   
+   .tarjeta {
+       padding: 2px 16px;
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: display;
+       justify-content: center;
+       text-align: center;
+       justify-content: center;
+       flex-direction: center;
+       text-decoration: none;
+       padding: auto;
+       font-size: 12px;
+       font-weight: bold;
+       font-family: Verdana, sans-serif;
+       text-align: center;
+   }
+   
+   .elementofuego {
+       padding: 2px 16px;
+       display: flex;
+       flex-wrap: wrap;
+       flex-direction: display;
+       justify-content: center;
+       text-align: center;
+       justify-content: center;
+       flex-direction: center;
+       text-decoration: none;
+       padding: auto;
+       font-size: 12px;
+       font-weight: bold;
+       font-family: Verdana, sans-serif;
+       text-align: center;
+   }
