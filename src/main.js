@@ -7,7 +7,7 @@ let list = data.pokemon;
 
 
 // nodos
-const container = document.querySelector('#container');
+const container = document.querySelector('#item1');
 
 function drawPokemons(list) {
     // dibujar
@@ -28,7 +28,7 @@ const electricType = list.filter((p) => p.type.includes('Electric'));
 console.log(electricType);
 const fireType = list.filter((p) => p.type.includes('Fire'));
 console.log(fireType);
-const pokeNameSearch = list.filter((p) => p.name.includes([" "]));
+const pokeNameSearch = list.filter((p) => p.name.includes(["Pikachu"]));
 console.log(pokeNameSearch);
 
 list.map((p) => console.log(p.name));

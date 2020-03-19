@@ -72,19 +72,38 @@ header {
 
 .element3 {
     display: flex;
+    justify-content: flex-start;
     flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: space-around;
     text-align: center;
     justify-content: center;
     flex-direction: center;
 }
 
 #container {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #000000;
     display: flex;
-    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
     flex-direction: row;
+    flex-wrap: wrap;
+    position: center;
+    align-items: stretch;
+}
+
+#item1 {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #D469FF;
+    border: 2px solid #000000);
+    display: flex;
+    text-align: center;
     justify-content: space-around;
-    border: #FF1333;
-    font-family: 'Baloo 2', cursive;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: center;
+    align-items: center;
 }
