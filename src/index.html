@@ -16,59 +16,60 @@
             <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Pok%C3%A9mon_GO_logo.svg/320px-Pok%C3%A9mon_GO_logo.svg.png>
         </div>
     </header><br>
-
-    <div class="element2">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <input type="search" id="mysearch" name="question" class="textcamp">
-        <button id="search" class="searchbutton" onclick="myFunction()"><i class="fa fa-search"></i> &nbsp Buscar por nombre o número</button>
-        <div class="container" id="pokeSearch">
-            <p> </p>
+    <nav>
+        <div class="element2">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <input type="search" id="mySearch" name="question" class="textcamp">
+            <button id="search" class="searchbutton"><i class="fa fa-search"></i> &nbsp Buscar por nombre o número</button>
+            <div id="pokeSearch">
+                <p> </p>
+            </div>
         </div>
-    </div>
+    </nav>
+    <section>
+        <main>
+
+            <div class="centeredPrompt__item centeredPromptLabel">Pokédex</div>
+            <div class="centeredPrompt__item centeredPromptDetails">
+                <p>Pokédex es una enciclopedia de alta tecnología que los Entrenadores Pokémon utilizan</br> para registrar las diversas especies con las que se encuentran durante su viaje como entrenadores.</br>
+                    Realiza tu búsqueda por nombre o número.</br>
+                    ¡Usa la búsqueda avanzada para encontrar Pokémon por su tipo y popularidad!</br>
+                    Comienza tu viaje con Pokémon go!,</br> atrápalos a todos y conviértete en el mejor entrenador!</p>
+            </div>
+
+            <div class="pokeballelement">
+                <img class="pokeball" src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/110px-Pok%C3%A9_Ball_icon.svg.png>
+            </div>
+        </main>
+        <aside>
+            <div class="pokeType">Tipos de Pokémon</div>
+            <div class="element3" id="filterTypes">
+                <button class="boton_personalizado" id="bugBtn">Bicho</button>
+                <button class="boton_personalizado" id="dragonBtn">Dragón</button>
+                <button class="boton_personalizado" id="normalBtn">Normal</button>
+                <button class="boton_personalizado" id="fireBtn">Fuego</button>
+                <button class="boton_personalizado" id="ghostBtn">Fantasma</button>
+                <button class="boton_personalizado" id="groundBtn">Tierra</button>
+                <button class="boton_personalizado" id="psychicBtn">Psíquico</button>
+                <button class="boton_personalizado" id="fightingBtn">Lucha</button>
+                <button class="boton_personalizado " id="poisonBtn">Veneno</button>
+                <button class="boton_personalizado " id="rockBtn ">Roca</button>
+                <button class="boton_personalizado " id="waterBtn ">Agua</button>
+                <button class="boton_personalizado " id="flyingBtn ">Volador</button>
+                <button class="boton_personalizado " id="plantBtn ">Planta</button>
+                <button class="boton_personalizado " id="iceBtn ">Hielo</button>
+            </div>
+        </aside>
+        <section>
+            <div id="container">
 
 
-    <br>
+            </div>
 
-    <div class="centeredPrompt__item centeredPromptLabel">Pokédex</div>
-    <div class="centeredPrompt__item centeredPromptDetails">
-        <p>Pokédex es una enciclopedia de alta tecnología que los Entrenadores Pokémon utilizan</br> para registrar las diversas especies con las que se encuentran durante su viaje como entrenadores.</br>
-            Realiza tu búsqueda por nombre o número.</br>
-            ¡Usa la búsqueda avanzada para encontrar Pokémon por su tipo y popularidad!</br>
-            Comienza tu viaje con Pokémon go!,</br> atrápalos a todos y conviértete en el mejor entrenador!</p>
-    </div>
+        </section>
 
-    <div class="pokeballelement">
-        <img class="pokeball" src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/110px-Pok%C3%A9_Ball_icon.svg.png>
-    </div>
-
-    <section id="container"></section>
-
-    <div class="pokeType">Tipos de Pokémon</div>
-    <div class="element3">
-        <a class="boton_personalizado" href="index1.html" id="bugBtn">Bicho</a>
-        <a class="boton_personalizado" href="index1.html" id="dragonBtn">Dragón</a>
-        <a class="boton_personalizado" href="index1.html" id="normalBtn">Normal</a></div>
-    <div class="element4">
-        <a class="boton_personalizado" href="index1.html" id="fireBtn">Fuego</a>
-        <a class="boton_personalizado" href="index1.html" id="ghostBtn">Fantasma</a>
-        <a class="boton_personalizado" href="index1.html" id="groundBtn">Tierra</a>
-    </div>
-    <div class="element5">
-        <a class="boton_personalizado" href="index1.html" id="psychicBtn">Psíquico</a>
-        <button onclick="drawPokemon()" id="electricBtn" class="boton_personalizado">Eléctrico</button>
-        <a class="boton_personalizado" href="index1.html" id="fightingBtn" ">Lucha</a></div>
-    <div class="element6 ">
-        <a class="boton_personalizado " href="index1.html "id="poisonBtn ">Veneno</a>
-        <a class="boton_personalizado " href="index1.html "id="rockBtn ">Roca</a>
-        <a class="boton_personalizado " href="index1.html "id="waterBtn ">Agua</a>
-    </div>
-    <div class="element7 ">
-        <a class="boton_personalizado " href="index1.html " id = "flyingBtn ">Volador</a>
-        <a class="boton_personalizado " href="index1.html " id="plantBtn " >Planta</a>
-        <a class="boton_personalizado " href="index1.html " id= "iceBtn ">Hielo</a>
-    </div>
-        
+    </section>
     <script type="module " src="./main.js "></script>
 </body>
 

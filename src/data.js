@@ -90,12 +90,6 @@ console.log(pokemonNum);
 
 //export const pokeTag = data.results.filter((name) => name.type === "grass");
 
-
-//let pokemonTags = [];
-//for (let i = 0; i < pokemon.length; i++) {
-//pokemonTags.push(pokemon[i].name);
-//};
-
 //console.log(pokemonTags);
 
 //let pokemonForce=[];

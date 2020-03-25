@@ -1,178 +1,129 @@
-   header {
-       background-color: #FF1212;
-   }
-   
-   .element1 {
-       position: relative;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-   }
-   
-   .element2 {
-       text-align: center;
-       justify-content: center;
-       flex-direction: center;
-   }
-   
-   .centeredPrompt__item+.centeredPrompt_item {
-       margin-top: 5px;
-   }
-   
-   .centeredPromptIcon {
-       font-size: 30px;
-       line-height: 0;
-       font-weight: bold;
-   }
-   
-   .centeredPromptLabel {
-       color: #000000;
-       font-size: 30px;
-       font-weight: bold;
-       text-align: center;
-   }
-   
-   .centeredPromptDetails {
-       color: #000000;
-       font-size: 16px;
-       margin-bottom: 10px;
-       text-align: center;
-   }
-   
-   .pokeball {
-       display: block;
-       margin-left: auto;
-       margin-right: auto;
-   }
-   
-   .pokeType {
-       color: #000000;
-       font-size: 30px;
-       font-weight: 700;
-       text-align: center;
-   }
-   
-   .boton_personalizado {
-       text-decoration: none;
-       padding: auto;
-       font-size: 12px;
-       font-weight: bold;
-       font-family: Verdana, sans-serif;
-       text-align: center;
-       color: #ffffff;
-       background-color: #375DAA;
-       border: 2px solid #ffffff;
-       display: center;
-       cursor: pointer;
-       width: 200%;
-   }
-   
-   .boton_personalizado:hover {
-       color: #3B4CCA;
-       background-color: #FFCC01;
-   }
-   
-   .element3 {
-       display: flex;
-       flex-wrap: no-wrap;
-       flex-direction: row;
-       justify-content: space-around;
-       text-align: center;
-       justify-content: center;
-       flex-direction: center;
-   }
-   
-   .element4 {
-       display: flex;
-       flex-wrap: no-wrap;
-       flex-direction: row;
-       justify-content: space-around;
-       text-align: center;
-       justify-content: center;
-       flex-direction: center;
-   }
-   
-   .element5 {
-       display: flex;
-       flex-wrap: no-wrap;
-       flex-direction: row;
-       justify-content: space-around;
-       text-align: center;
-       justify-content: center;
-       flex-direction: center;
-   }
-   
-   .element6 {
-       display: flex;
-       flex-wrap: no-wrap;
-       flex-direction: row;
-       justify-content: space-around;
-       text-align: center;
-       justify-content: center;
-       flex-direction: center;
-   }
-   
-   .element7 {
-       display: flex;
-       flex-wrap: no-wrap;
-       flex-direction: row;
-       justify-content: space-around;
-       text-align: center;
-       justify-content: center;
-       flex-direction: center;
-   }
-   
-   .element8 {
-       display: flex;
-       flex-wrap: no-wrap;
-       flex-direction: row;
-       justify-content: space-around;
-       text-align: center;
-       justify-content: center;
-       flex-direction: center;
-   }
-   
-   .container {
-       display: flex;
-       flex-wrap: no-wrap;
-       flex-direction: row;
-       justify-content: space-around;
-   }
-   
-   .card:hover {
-       box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-   }
-   
-   .tarjeta {
-       padding: 2px 16px;
-       display: flex;
-       flex-wrap: wrap;
-       flex-direction: display;
-       justify-content: center;
-       text-align: center;
-       justify-content: center;
-       flex-direction: center;
-       text-decoration: none;
-       padding: auto;
-       font-size: 12px;
-       font-weight: bold;
-       font-family: Verdana, sans-serif;
-       text-align: center;
-   }
-   
-   .elementofuego {
-       padding: 2px 16px;
-       display: flex;
-       flex-wrap: wrap;
-       flex-direction: display;
-       justify-content: center;
-       text-align: center;
-       justify-content: center;
-       flex-direction: center;
-       text-decoration: none;
-       padding: auto;
-       font-size: 12px;
-       font-weight: bold;
-       font-family: Verdana, sans-serif;
-       text-align: center;
-   }
+header {
+    background-color: #FF1212;
+}
+
+.element1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.element2 {
+    text-align: center;
+    justify-content: center;
+    flex-direction: center;
+}
+
+.centeredPrompt__item+.centeredPrompt_item {
+    margin-top: 5px;
+}
+
+.centeredPromptIcon {
+    font-size: 30px;
+    line-height: 0;
+    font-weight: bold;
+}
+
+.centeredPromptLabel {
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.centeredPromptDetails {
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.pokeball {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pokeType {
+    background-color: #FF1212;
+    font-family: 'Baloo 2', cursive;
+    -webkit-text-stroke: 1.5px #52505F;
+    color: transparent;
+    font-size: 40px;
+    text-align: center;
+}
+
+.boton_personalizado {
+    font-family: 'Baloo 2', cursive;
+    color: #52505F;
+    font-size: 12px;
+    text-align: center;
+    border: #5F48FF;
+    border-style: groove;
+    cursor: pointer;
+    height: 60px;
+    width: 200%;
+}
+
+.boton_personalizado:hover {
+    background-color: #FFCC01;
+}
+
+.element3 {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    flex-direction: center;
+}
+
+#container {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+    margin: 0 2px;
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: center;
+    align-items: stretch;
+}
+
+#container div {
+    padding: 10px;
+    background-color: #ffffff;
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 15px;
+    top: 1;
+    left: 1;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: center;
+    align-items: stretch;
+}
+
+#container p {
+    padding: 1px;
+    background-color: #ffffff;
+    font-size: 18px;
+    font-family: Verdana, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: center;
+    align-items: stretch;
+}
