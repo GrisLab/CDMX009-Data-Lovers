@@ -115,14 +115,17 @@ header {
 }
 
 #container p {
-    padding: 1px;
+    padding: 10px;
     background-color: #ffffff;
-    font-size: 18px;
-    font-family: Verdana, sans-serif;
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 15px;
+    top: 1;
+    left: 1;
     display: flex;
     text-align: center;
-    justify-content: center;
-    flex-direction: row;
+    justify-content: space-around;
+    flex-direction: column;
     flex-wrap: wrap;
     position: center;
     align-items: stretch;
