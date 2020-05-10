@@ -79,27 +79,6 @@ const filtrar = () => {
 // }
 
 
-// <
-// p > Minimum age: < input type = "number"
-// id = "ageToCheck"
-// value = "18" > < /p> <
-//     button onclick = "myFunction()" > Try it < /button>
-
-// <
-// p > All ages above minimum: < span id = "demo" > < /span></p >
-
-//     <
-//     script >
-//     var ages = [32, 33, 12, 40];
-
-// function checkAdult(age) {
-//     return age >= document.getElementById("ageToCheck").value;
-// }
-
-// function myFunction() {
-//     document.getElementById("demo").innerHTML = ages.filter(checkAdult);
-// } <
-// /script> 
 
 
 // const typeFilter = list.filter(p => p.type.includes(""));
@@ -154,11 +133,11 @@ const filtrar = () => {
 // (pokemonTags);
 
 
-function segundapantalla() {
-    let pantallas = document.getElementsByClassName("typeButton")
-    pantallas.style = "display:none";
-    document.getElementById("container").style.display = "block";
-}
+// function segundapantalla() {
+//     let pantallas = document.getElementsByClassName("typeButton")
+//     pantallas.style = "display:none";
+//     document.getElementById("container").style.display = "block";
+// }
 
 
-document.getElementById('hidePage').addEventListener('click', segundapantalla);
+// document.getElementById('hidePage').addEventListener('click', segundapantalla);
